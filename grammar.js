@@ -378,7 +378,7 @@ module.exports = grammar({
       choice(
         commaSep1(seq(
           $.intrinsic_type,
-          optional($.size),
+          optional($.kind),
           '(',
           commaSep1($.implicit_range),
           ')'
@@ -617,7 +617,7 @@ module.exports = grammar({
 
     _intrinsic_type: $ => prec.right(seq(
       $.intrinsic_type,
-      optional($.size)
+      optional($.kind)
     )),
 
     intrinsic_type: $ => choice(
@@ -641,7 +641,7 @@ module.exports = grammar({
 
     unlimited_polymorphic: $ => '*',
 
-    size: $ => choice(
+    kind: $ => choice(
       seq(optional(alias('*', $.assumed_size)), $.argument_list),
       seq('*', choice(/\d+/, $.parenthesized_expression))
     ),
