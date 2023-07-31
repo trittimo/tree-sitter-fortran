@@ -7825,10 +7825,6 @@
           "named": true
         },
         {
-          "type": "call_expression",
-          "named": true
-        },
-        {
           "type": "derived_type",
           "named": true
         },
@@ -7888,10 +7884,6 @@
       "types": [
         {
           "type": "assignment_statement",
-          "named": true
-        },
-        {
-          "type": "call_expression",
           "named": true
         },
         {

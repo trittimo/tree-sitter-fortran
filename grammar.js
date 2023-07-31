@@ -623,7 +623,6 @@ module.exports = grammar({
 
     _declaration_targets: $ => commaSep1(choice(
       $.variable,
-      $.call_expression,
       alias($._declaration_assignment, $.assignment_statement),
       alias($._declaration_pointer_association, $.pointer_association_statement),
     )),
