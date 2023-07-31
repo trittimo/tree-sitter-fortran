@@ -4000,10 +4000,6 @@
               "name": "variable"
             },
             {
-              "type": "SYMBOL",
-              "name": "call_expression"
-            },
-            {
               "type": "ALIAS",
               "content": {
                 "type": "SYMBOL",
@@ -4038,10 +4034,6 @@
                   {
                     "type": "SYMBOL",
                     "name": "variable"
-                  },
-                  {
-                    "type": "SYMBOL",
-                    "name": "call_expression"
                   },
                   {
                     "type": "ALIAS",
