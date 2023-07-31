@@ -3900,7 +3900,7 @@
         }
       ]
     },
-    "_sized_identifier": {
+    "variable": {
       "type": "PREC_RIGHT",
       "value": 1,
       "content": {
@@ -3947,7 +3947,7 @@
           "name": "left",
           "content": {
             "type": "SYMBOL",
-            "name": "_sized_identifier"
+            "name": "variable"
           }
         },
         {
@@ -3972,7 +3972,7 @@
           "name": "left",
           "content": {
             "type": "SYMBOL",
-            "name": "_sized_identifier"
+            "name": "variable"
           }
         },
         {
@@ -3997,7 +3997,7 @@
           "members": [
             {
               "type": "SYMBOL",
-              "name": "_sized_identifier"
+              "name": "variable"
             },
             {
               "type": "SYMBOL",
@@ -4037,7 +4037,7 @@
                 "members": [
                   {
                     "type": "SYMBOL",
-                    "name": "_sized_identifier"
+                    "name": "variable"
                   },
                   {
                     "type": "SYMBOL",
